@@ -17,7 +17,7 @@ st.markdown("## Dashboard de Ventas")
 
 # Credenciales
 USER = "nativos_tunal"
-PASS = "Nativos2025*"
+PASS = "Nativos2025*2026"
 
 
 # ============================================
@@ -195,3 +195,4 @@ ventas_hora = (
 )
 
 st.bar_chart(ventas_hora.set_index("Hora")["Total"])
+
